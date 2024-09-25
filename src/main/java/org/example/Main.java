@@ -1,10 +1,14 @@
 package org.example;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String input = "FF0";
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a 3 digit hex code: ");
+        String input = scanner.nextLine();
 
         List<String> nearestColours = FindNearestColour.findNearestColour(input);
 
