@@ -1,4 +1,4 @@
-package org.example;
+package estaru.kata.nearestcolour;
 
 import java.util.ArrayList;
 import java.util.List;

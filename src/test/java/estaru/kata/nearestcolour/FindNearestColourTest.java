@@ -1,4 +1,4 @@
-package org.example;
+package estaru.kata.nearestcolour;
 
 import java.util.List;
 import org.junit.jupiter.api.Test;
