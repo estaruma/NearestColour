@@ -1,7 +1,13 @@
 package org.example;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String input = "FF0";
+
+        List<String> nearestColours = FindNearestColour.findNearestColour(input);
+
+        System.out.println(input + nearestColours);
     }
 }
